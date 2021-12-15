@@ -1,0 +1,22 @@
+{
+  "name": "theme-foam-jesse",
+  "version": "1.0.0",
+  "description": "wordpress thema voor  het foam museum team: Jesse Boon en Nikay",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --style expanded scss/foam1.scss css/foam1.css",
+    "watch": "sass --watch scss:css --style expanded",
+    "prod": "sass --style compressed  --no-source-map scss/foam1.scss css/foam1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseboon04/wp-foam-thema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseboon04/wp-foam-thema/issues"
+  },
+  "homepage": "https://github.com/jesseboon04/wp-foam-thema#readme"
+}
