@@ -1,0 +1,41 @@
+@import 'variabele';
+//.main-menu {
+  //margin: 0%;
+ // padding: 0%;
+ // display: flex;
+ // text-decoration: none;
+ // text-align: center;
+//  list-style: none;
+  //color:white ;
+
+//}
+.menu{
+  text-align: center;
+  list-style: none;
+
+  text-after-overflow: none;
+  list-style: none;
+  color:white;
+  ul{
+    list-style: none;
+    color: #FFFFFF;
+
+  }
+  li{
+    display: inline;
+    padding: 3%;
+  }
+  a {
+    color: $menu-item-color;
+    text-decoration: none;
+
+  }
+  a:hover {
+    color: red;
+    transition: all 0.3s ease;
+  }
+    a:active {
+      color: red;
+    }
+}
+

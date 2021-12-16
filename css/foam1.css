@@ -1,1 +1,97 @@
-body{font-family:"Open Sans",sans-serif;background-color:#4e4;color:#fff}h1{font-size:30px}h1 a{color:#1e90ff}
+.menu {
+  text-align: center;
+  list-style: none;
+  text-after-overflow: none;
+  list-style: none;
+  color: white;
+}
+.menu ul {
+  list-style: none;
+  color: #FFFFFF;
+}
+.menu li {
+  display: inline;
+  padding: 3%;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+.menu a:active {
+  color: red;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+}
+
+.btn-green {
+  background: #2ecc71;
+}
+.btn-green:hover {
+  background: #26ab5f;
+  transition: all 0.3s ease;
+}
+.btn-green:active {
+  background: #176437;
+  color: #FFFFFF;
+}
+
+.btn-blue {
+  background: #3498db;
+}
+.btn-blue:hover {
+  background: #2383c4;
+  transition: all 0.3s ease;
+}
+.btn-blue:active {
+  background: #16527a;
+  color: #FFFFFF;
+}
+
+.btn-yellow {
+  background: #f1c40f;
+}
+.btn-yellow:hover {
+  background: #cba50c;
+  transition: all 0.3s ease;
+}
+.btn-yellow:active {
+  background: #796307;
+  color: #FFFFFF;
+}
+
+.btn-red {
+  background: #e74c3c;
+}
+.btn-red:hover {
+  background: #df2e1b;
+  transition: all 0.3s ease;
+}
+.btn-red:active {
+  background: #921e12;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: dodgerblue;
+  color: #000000;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=test.scss.map */
+
+/*# sourceMappingURL=foam1.css.map */

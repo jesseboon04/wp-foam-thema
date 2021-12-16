@@ -1,14 +1,21 @@
+@import "variabele";
+@import "menu";
+@import "footer.scss";
+@import "mixins.scss";
+@import "buttons.scss";
+@import "font.scss";
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #44ee44;
-  color: #FFFFFF;
+  background-color: dodgerblue;
+  color: $body-background-bg;
+
 }
+
 h1 {
 font-size: 30px;
-
-  a{
-    color: dodgerblue;
-  }
 }
 
 /*# sourceMappingURL=test.scss.map */

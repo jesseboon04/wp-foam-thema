@@ -1,6 +1,6 @@
 <?php
     function load_style_foam(){
-    wp_enqueue_style( 'main-css', get_template_directory_uri().'/css/foam.css');
+    wp_enqueue_style( 'main-css', get_template_directory_uri().'/css/foam1.css');
     }
 add_action( 'wp_enqueue_scripts', 'load_style_foam' );
 
