@@ -1,0 +1,58 @@
+.menu {
+  text-align: center;
+  list-style: none;
+  margin-top: -2.1%;
+  text-after-overflow: none;
+  font-size: 20px;
+  margin-left: -5%;
+  color: white;
+}
+.menu ul {
+  list-style: none;
+  color: #FFFFFF;
+}
+.menu li {
+  display: inline;
+  padding: 3%;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+.menu .current-menu-item a {
+  color: red;
+}
+
+.logo-menu {
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.icon-positie {
+  margin-left: 85%;
+  margin-top: -3%;
+}
+
+.btn-header {
+  background-color: transparent;
+  border: none;
+}
+
+.foto-tekst {
+  color: black;
+}
+
+.product-type-simple {
+  margin-top: 2%;
+}
+
+/*# sourceMappingURL=menu.css.map */

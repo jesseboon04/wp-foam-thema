@@ -1,5 +1,6 @@
 @import "variabele";
 @import "menu";
+@import "header";
 @import "footer.scss";
 @import "mixins.scss";
 @import "buttons.scss";
@@ -9,13 +10,74 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: dodgerblue;
-  color: $body-background-bg;
+  background-color: white;
+  color: black;
+
 
 }
 
 h1 {
 font-size: 30px;
 }
+
+.wonderpluginslider-container{
+  width: 100%;
+  height: auto;
+}
+.header-activiteit{
+  text-align: center;
+}
+//.image-activiteiten{
+ // width: 100%;
+ // height: auto;
+//}
+wp-block-image{
+  width: 100%;
+  height: auto;
+}
+.wp-block-buttons{
+
+}
+button-links{
+  margin-left: 40%;
+}
+.nieuws-pagina-bottom{
+  height: 50px;
+}
+.nieuws-pagina-top{
+  height: 20px;
+}
+.bericht-page{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.title-bericht{
+  color: red;
+}
+.more-link{
+  color: red;
+}
+.btn-test{
+  border: none;
+
+ 
+}
+.footer-activiteit{
+  margin-top: 10%;
+}
+.btn-meerinfo{
+  margin-top: -4%;
+
+
+}.header-activiteit{
+  margin-top: -4%;
+ }
+.beschrijving-activiteiten-page{
+  padding-bottom: 4%;
+  margin-top: -2%;
+}
+
+
+
 
 /*# sourceMappingURL=test.scss.map */

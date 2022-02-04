@@ -1,8 +1,10 @@
 .menu {
   text-align: center;
   list-style: none;
+  margin-top: -2.1%;
   text-after-overflow: none;
-  list-style: none;
+  font-size: 20px;
+  margin-left: -5%;
   color: white;
 }
 .menu ul {
@@ -21,8 +23,115 @@
   color: red;
   transition: all 0.3s ease;
 }
-.menu a:active {
+.menu .current-menu-item a {
   color: red;
+}
+
+.logo-menu {
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.icon-positie {
+  margin-left: 85%;
+  margin-top: -3%;
+}
+
+.btn-header {
+  background-color: transparent;
+  border: none;
+}
+
+.foto-tekst {
+  color: black;
+}
+
+.product-type-simple {
+  margin-top: 2%;
+}
+
+.icon-footer {
+  border: solid black 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 315px;
+}
+
+.footer-activiteit {
+  padding-bottom: 3%;
+  margin-left: 20%;
+}
+
+.icon-bottom {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.icon-nieuwsbrief {
+  width: 40px;
+  height: auto;
+}
+
+.nieuwsbrief-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 27.8%;
+  margin-top: -6.48%;
+  height: 71px;
+}
+
+.tekst-footer-nieuwsbrief {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.icon-bezoeken {
+  width: 35px;
+  height: auto;
+}
+
+.tekst-footer-bezoek {
+  font-size: 20px;
+  margin-left: 13%;
+}
+
+.bezoek-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 41%;
+  margin-top: -6.45%;
+  height: 71px;
+}
+
+.icon-engels {
+  width: 35px;
+  height: auto;
+}
+
+.tekst-footer-engels {
+  font-size: 20px;
+  margin-left: 13%;
+}
+
+.engels-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 54%;
+  margin-top: -6.45%;
+  height: 71px;
 }
 
 .btn {
@@ -84,12 +193,72 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: dodgerblue;
-  color: #000000;
+  background-color: white;
+  color: black;
 }
 
 h1 {
   font-size: 30px;
+}
+
+.wonderpluginslider-container {
+  width: 100%;
+  height: auto;
+}
+
+.header-activiteit {
+  text-align: center;
+}
+
+wp-block-image {
+  width: 100%;
+  height: auto;
+}
+
+button-links {
+  margin-left: 40%;
+}
+
+.nieuws-pagina-bottom {
+  height: 50px;
+}
+
+.nieuws-pagina-top {
+  height: 20px;
+}
+
+.bericht-page {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.title-bericht {
+  color: red;
+}
+
+.more-link {
+  color: red;
+}
+
+.btn-test {
+  border: none;
+}
+
+.footer-activiteit {
+  margin-top: 10%;
+}
+
+.btn-meerinfo {
+  margin-top: -4%;
+}
+
+.header-activiteit {
+  margin-top: -4%;
+}
+
+.beschrijving-activiteiten-page {
+  padding-bottom: 4%;
+  margin-top: -2%;
 }
 
 /*# sourceMappingURL=test.scss.map */

@@ -1,0 +1,80 @@
+.icon-footer {
+  border: solid black 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 315px;
+}
+
+.footer-activiteit {
+  padding-bottom: 3%;
+  margin-left: 20%;
+}
+
+.icon-bottom {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.icon-nieuwsbrief {
+  width: 40px;
+  height: auto;
+}
+
+.nieuwsbrief-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 27.8%;
+  margin-top: -6.48%;
+  height: 71px;
+}
+
+.tekst-footer-nieuwsbrief {
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.icon-bezoeken {
+  width: 35px;
+  height: auto;
+}
+
+.tekst-footer-bezoek {
+  font-size: 20px;
+  margin-left: 13%;
+}
+
+.bezoek-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 41%;
+  margin-top: -6.45%;
+  height: 71px;
+}
+
+.icon-engels {
+  width: 35px;
+  height: auto;
+}
+
+.tekst-footer-engels {
+  font-size: 20px;
+  margin-left: 13%;
+}
+
+.engels-footer {
+  border-right: black solid 1px;
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 13%;
+  margin-left: 54%;
+  margin-top: -6.45%;
+  height: 71px;
+}
+
+/*# sourceMappingURL=footer.css.map */
